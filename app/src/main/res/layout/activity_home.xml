@@ -29,7 +29,7 @@
 
 
             <RelativeLayout
-                android:id="@+id/telecom"
+                android:id="@+id/energie"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:background="@color/colorPrimary"
@@ -46,7 +46,6 @@
                     android:padding="25dp"/>
 
                 <Button
-
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="En savoir plus"
@@ -66,6 +65,7 @@
         </RelativeLayout>
 
         <RelativeLayout
+            android:id="@+id/telecom"
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:background="#FF5722"
@@ -105,6 +105,7 @@
 
 
             <RelativeLayout
+                android:id="@+id/subvention"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:background="#8AFF00"
@@ -121,7 +122,6 @@
                     android:padding="25dp"/>
 
                 <Button
-                    android:id="@+id/subvention"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="En savoir plus"
