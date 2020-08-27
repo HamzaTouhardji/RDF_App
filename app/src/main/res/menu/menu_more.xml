@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/CGU" android:title="C.G.U" app:showAsAction="never"/>
+    <item android:id="@+id/appeler_expert" android:title="Appeler un expert" app:showAsAction="never"/>
+    <item android:id="@+id/note" android:title="Laisser un avis" app:showAsAction="never"/>
+</menu>
