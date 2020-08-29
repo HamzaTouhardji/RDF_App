@@ -14,18 +14,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".PDFViewActivity"></activity>
+        <activity android:name=".CameraActivity"></activity>
+        <activity android:name=".PDFViewActivity" />
         <activity android:name=".Menu.CGUActivity" />
-
-        <!--<activity android:name=".Menu.AppelezUnExpertActivity">
+        <!--
+<activity android:name=".Menu.AppelezUnExpertActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>-->
-
-        <activity android:name=".Menu.AppelezUnExpertActivity"/>
+        </activity>
+        -->
+        <activity android:name=".Menu.AppelezUnExpertActivity" />
         <activity android:name=".Energie.EnergieActivity" />
         <activity android:name=".Subvention.SubventionActivity" />
         <activity android:name=".Telecom.TelecomActivity" />
