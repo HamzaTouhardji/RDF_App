@@ -39,4 +39,9 @@ dependencies {
     implementation 'com.github.kk121:File-Loader:1.2'
     implementation 'com.karumi:dexter:5.0.0'
 
+    //send email
+    implementation files('libs/activation.jar')
+    implementation files('libs/additionnal.jar')
+    implementation files('libs/mail.jar')
+
 }

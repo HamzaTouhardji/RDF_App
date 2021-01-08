@@ -6,6 +6,7 @@
     <permission android:name="android.permission.CAMERA" />
     <permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -14,7 +15,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".CameraActivity"></activity>
+        <activity android:name=".Email.EmailActivity"></activity>
+        <activity android:name=".CameraActivity" />
         <activity android:name=".PDFViewActivity" />
         <activity android:name=".Menu.CGUActivity" />
         <!--

@@ -9,8 +9,10 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.RelativeLayout;
 
+import com.example.rdf_app.Email.EmailActivity;
 import com.example.rdf_app.Energie.EnergieActivity;
 import com.example.rdf_app.Menu.AppelezUnExpertActivity;
 import com.example.rdf_app.Menu.CGUActivity;
@@ -20,6 +22,7 @@ import com.example.rdf_app.Telecom.TelecomActivity;
 public class HomeActivity extends AppCompatActivity {
 
     RelativeLayout telecom, energie, subvention;
+    Button send_email;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,6 +51,15 @@ public class HomeActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(HomeActivity.this, SubventionActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        send_email = findViewById(R.id.send_email);
+        send_email.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(HomeActivity.this, EmailActivity.class);
                 startActivity(intent);
             }
         });
